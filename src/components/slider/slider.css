@@ -1,0 +1,135 @@
+.BrainhubCarousel__dots .BrainhubCarousel__dot:before {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 21px;
+    padding: 0;
+    border: none;
+    
+    border-radius: 0;
+}
+.BrainhubCarousel__dots {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    position: absolute;
+    font-size: 0;
+    line-height: 0;
+    top: 21rem;
+    left: 16rem;
+}
+.MuiFormControlLabel-root {
+    position: absolute;
+}
+.MuiIconButton-label {
+    position: relative;
+    right: -49rem;
+    top: 6px;
+}
+
+.BrainhubCarousel__dots .BrainhubCarousel__dot {
+    outline: 0;
+    padding: 10px 2.3px;
+    margin: 5px 25px;
+    border: none;
+    opacity: 0.5;
+    font-size: 0;
+    cursor: pointer;
+    -webkit-appearance: none;
+}
+
+@media (max-width:430px) {
+    .BrainhubCarousel__dots {
+        top: 6.5rem;
+        left: 1rem;
+    }
+    .BrainhubCarousel__dots .BrainhubCarousel__dot:before {
+        content: '';
+        display: block;
+        width: 0px;
+        height: 0px;
+        padding: 0;
+        border: none;
+        
+        border-radius: 0;
+    }
+    .MuiIconButton-label {
+        position: relative;
+        right: -50rem;
+        top: 6px;
+    }
+  }
+  @media (max-width:1028px) {
+    .BrainhubCarousel__dots {
+        top: 29rem;
+        left: 2rem;
+    }
+    .MuiIconButton-label {
+        position: relative;
+        right: -46rem !important;
+        top: 6px !important;
+    }
+ }
+ 
+ @media (max-width:850px) {
+ .BrainhubCarousel__dots {
+     top: 23rem;
+     left: 1.5rem;
+ }
+ .MuiIconButton-label {
+    position: relative;
+    right: -43rem !important;
+    top: 6px !important;
+}
+}
+@media (max-width:650px) {
+    .BrainhubCarousel__dots {
+        top: 16rem;
+        left: 1.5rem;
+    }
+    .MuiIconButton-label {
+        position: relative;
+        right: -34rem !important;
+        top: 6px !important;
+    }
+   }
+   @media (max-width:550px) {
+    .BrainhubCarousel__dots {
+        top: 12rem;
+        left: 1.5rem;
+    }
+    .MuiIconButton-label {
+        position: relative;
+        right: -28rem !important;
+        top: 6px !important;
+    }
+   }
+   @media (max-width:430px) {
+    .BrainhubCarousel__dots {
+        top: 10rem;
+        left: 1.5rem;
+    }
+    .MuiIconButton-label {
+        position: relative;
+        right: -22rem !important;
+        top: 6px !important;
+    }
+   }
+   @media (max-width:400px) {
+    .BrainhubCarousel__dots {
+        top: 9.4rem;
+        left: 0.1rem;
+    }
+    .MuiIconButton-label {
+        position: relative;
+        right: -20rem !important;
+        top: 6px !important;
+    }
+   }

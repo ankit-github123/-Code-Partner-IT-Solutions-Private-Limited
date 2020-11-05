@@ -1,0 +1,40 @@
+.addidas-title {
+    margin-left: 4%;
+}
+.cost {
+    color: #FB8902;
+}
+.strike-cost {
+    text-decoration: line-through;
+}
+.title1 {
+    color: #0170A6;
+
+}
+.title2 {
+    color: #636363;
+}
+.cost-div {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}
+@media (max-width:600px) {
+    .addidas-title {
+        margin-left: 0;
+    }
+    .title1 {
+        font-size: 17px;
+        margin-left: 5px;
+    }
+    .title2 {
+        font-size: 30px;
+        margin-left: 5px;
+    }
+    .cost {
+        margin-left: 5px;
+    }
+    .but {
+        margin-left: 5px;
+    }
+   }

@@ -1,0 +1,11 @@
+.rating {
+  display: flex;
+  justify-content: space-between;
+  width: 326px;
+}
+
+@media (max-width: 1200px) {
+  .rating {
+    width: 300px !important;
+  }
+}
